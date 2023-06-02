@@ -1,0 +1,36 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  width: auto;
+  height: 100vh;
+}
+.square{
+  margin-top:10%;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  
+}
+.colorname{
+  margin-top: 25px;
+  margin-left: 40%;
+  width: 145px;
+}
+.colorname:hover{
+  cursor: pointer;
+}
+.toggle{
+  margin-top: 10px;
+  margin-left: 40%;
+  width: 145px;
+}
+.toggle:hover{
+  background: radial-gradient(circle, rgb(252, 252, 252),rgb(232, 189, 88))
+}
