@@ -17,7 +17,7 @@ const Content = () => {
             />
             <input className='colorname'
                 type="text" 
-                placeholder='Add color Name'
+                placeholder='Type color Name'
                 autoFocus
                 required
                 onChange={(e) => {
